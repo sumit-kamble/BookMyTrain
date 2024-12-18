@@ -1,0 +1,120 @@
+[
+  {
+    "trainId": "LA-SF567",
+    "trainNo": "001",
+    "stationTimes": {
+      "Los Angeles": "06:30 AM",
+      "Bakersfield": "09:00 AM",
+      "San Francisco": "12:00 PM"
+    },
+    "station": ["Los Angeles", "Bakersfield", "San Francisco"],
+    "dates": ["moday", "Sunday"],
+    "coaches": [
+      {
+        "coachType": "Sleeper",
+        "coachId": "S1",
+        "seats": [
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [0, 0, 0, 1]
+        ]
+      },
+      {
+        "coachType": "AC Tier-2",
+        "coachId": "A1",
+        "seats": [
+          [0, 1, 1, 0],
+          [0, 0, 0, 1],
+          [1, 1, 0, 0]
+        ]
+      }
+    ]
+  },
+  {
+    "trainId": "BOS124",
+    "trainNo": "002",
+    "stationTimes": {
+      "Boston": "09:00 AM",
+      "Cleveland": "11:30 AM",
+      "Chicago": "02:00 PM"
+    },
+    "station": ["Boston", "Cleveland", "Chicago"],
+    "dates": null,
+    "coaches": [
+      {
+        "coachType": "Sleeper",
+        "coachId": "S1",
+        "seats": [
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [0, 0, 0, 1]
+        ]
+      },
+      {
+        "coachType": "AC Tier-2",
+        "coachId": "A1",
+        "seats": [
+          [1, 1, 1, 0],
+          [0, 0, 0, 1],
+          [1, 1, 0, 0]
+        ]
+      }
+    ]
+  },
+  {
+    "trainId": "NKP124",
+    "trainNo": "003",
+    "stationTimes": {
+      "Nagpur": "15:15:00",
+      "Hingoli": "21:50:00",
+      "Parli": "02:30:00",
+      "Latur": "04:30:00",
+      "Pandharpur": "09:10:00",
+      "Miraj": "12:05:00",
+      "Kolhapur": "13:30:00"
+    },
+    "station": [
+      "Nagpur",
+      "Hingoli",
+      "Parli",
+      "Latur",
+      "Pandharpur",
+      "Miraj",
+      "Kolhapur"
+    ],
+    "dates": ["Tuesday", "Saturday"],
+    "coaches": [
+      {
+        "coachType": "Sleeper",
+        "coachId": "S1",
+        "seats": [
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [1, 1, 1, 1],
+          [0, 0, 0, 1]
+        ]
+      },
+      {
+        "coachType": "AC Tier-2",
+        "coachId": "A1",
+        "seats": [
+          [0, 1, 1, 0],
+          [0, 0, 0, 1],
+          [1, 1, 0, 0]
+        ]
+      },
+      {
+        "coachType": "General",
+        "coachId": "G1",
+        "seats": [
+          [0, 0, 1, 1],
+          [1, 0, 0, 0],
+          [0, 1, 1, 1],
+          [1, 0, 0, 1]
+        ]
+      }
+    ]
+  }
+]
