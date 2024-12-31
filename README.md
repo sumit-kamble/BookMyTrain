@@ -60,7 +60,7 @@ This application aims to provide a seamless experience for users looking to plan
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/RailEase.git
+   git clone https://github.com/sumit-kamble/BookMyTrain
    ```
 
 <!-- // current features
